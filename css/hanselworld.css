@@ -91,3 +91,32 @@ img {
      padding-left: 2rem;
      margin-left: 2rem;
 }
+
+/* (B) RESPONSIVE IMAGE */
+.textover img {
+     width: 100%;
+}
+
+.textover {
+     max-width: 600px;
+} /* OPTIONAL */
+
+/* (C) POSITION CAPTION */
+.textover {
+     position: relative;
+} /* REQUIRED */
+.textover figcaption {
+     position: absolute;
+     bottom: 0;
+     left: 10;
+}
+
+/* (D) CAPTION COSMETICS */
+.textover figcaption {
+  box-sizing: border-box;
+  width: 15vw;
+  /* padding: 10px; */
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
