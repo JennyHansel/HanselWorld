@@ -114,7 +114,11 @@ img {
 /* (D) CAPTION COSMETICS */
 .textover figcaption {
      box-sizing: border-box;
+<<<<<<< HEAD
      width: 100%;
+=======
+     width: 15vw;
+>>>>>>> origin/crh/Add-Maui-Page
      /* padding: 10px; */
      color: white;
      text-align: center;
