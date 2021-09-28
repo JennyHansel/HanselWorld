@@ -4,6 +4,8 @@
 body {
      background-color: blanchedalmond;
      color: black;
+     margin-left: 4%;
+     margin-right: 4%;
 }
 
 h1 {
@@ -44,8 +46,6 @@ img {
 .kids {
      display: inline;
      width: 32%;
-     margin: 0;
-     padding: 0;
 }
 
 .family-img {
@@ -53,13 +53,13 @@ img {
 }
 
 .parent-column {
+     width: 16vw;
      display: static;
-     padding: 0;
 }
 
 .parent-row {
-     padding: 0.5rem;
-     margin: 0;
+     /* width: 20vw; */
+     display: static;
 }
 
 #kids-top-row {
@@ -90,4 +90,37 @@ img {
 #dark-mode {
      padding-left: 2rem;
      margin-left: 2rem;
+}
+
+/* (B) RESPONSIVE IMAGE */
+.textover img {
+     width: 100%;
+}
+
+.textover {
+     max-width: 600px;
+} /* OPTIONAL */
+
+/* (C) POSITION CAPTION */
+.textover {
+     position: relative;
+} /* REQUIRED */
+.textover figcaption {
+     position: absolute;
+     bottom: 0;
+     left: 10;
+}
+
+/* (D) CAPTION COSMETICS */
+.textover figcaption {
+     box-sizing: border-box;
+<<<<<<< HEAD
+     width: 100%;
+=======
+     width: 15vw;
+>>>>>>> origin/crh/Add-Maui-Page
+     /* padding: 10px; */
+     color: white;
+     text-align: center;
+     background: rgba(0, 0, 0, 0.6);
 }
