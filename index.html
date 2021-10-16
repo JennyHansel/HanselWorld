@@ -32,12 +32,12 @@
 
 <body>
     <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
     <!-- Bootstrap Bundle with Popper -->
 
-    <div class="container" style="margin: auto;">
+    <div   class="container" style="margin: auto;">
         <div id="header-text">
             <h1>Hansel World</h1>
             <h3>Hansel Family Web Site</h3>
@@ -55,84 +55,79 @@
 
     <div class="row">
         <!-- Picture Block -->
-        <div class="parent-column">
 
-            <!-- Parent Column -->
-            <div class="parent-row textover">
-                <a href="charlie/charlie.html"><img id="parent" src="images/CharlieHeadShot.jpg"
-                        alt="Charles Hansel Photo"></a>
-                <figcaption>Charlie</figcaption>
+        
+        
+        <div id="PhotoBlock">
+            <div id="ParentBlock">
+                <img id="parent" src="images/CharlieHeadShot.jpg" alt="Charles Hansel Photo">
+                <img id="parent" src="images/Ginger.png" alt="Ginger Hansel Photo">
             </div>
-
-            <div class="parent-row textover">
-                <a href="charlie/charlie.html"><img id="parent" src="images/Ginger.png" alt="Ginger Hansel Photo"></a>
-                <figcaption>Ginger</figcaption>
+            
+            <div id="KidsBlock">
+                <div id="GirlsBlock">
+                    <img class="kids" src="images/Samantha.jpg" alt="">
+                    <img class="kids" src="images/Serena.jpeg" alt="">
+                    <img class="kids" src="images/Jenny.jpg" alt="">
+                </div>                
+                
+                <div id="GuysBlock">
+                    <img class="kids" src="images/MikesWyomingTrip8.jpg" alt="">
+                    <img class="kids" src="images/J and Girls.jpg" alt="">
+                    <img class="kids" src="images/Andy Dive.jpg" alt="">
+                </div>
             </div>
-
-        </div>
-        <div class="col-md-4">
-            <!-- Kids Column -->
-            <div id="kids-top-row" class="row">
-                <img class="kids" src="images/Samantha.jpg" alt="">
-                <img class="kids" src="images/Serena.jpeg" alt="">
-                <img class="kids" src="images/Jenny.jpg" alt="">
-            </div>
-
-            <div id="kids-bottom-row" class="row">
-                <img class="kids" src="images/MikesWyomingTrip8.jpg" alt="">
-                <img class="kids" src="images/J and Girls.jpg" alt="">
-                <img class="kids" src="images/Andy Dive.jpg" alt="">
-            </div>
-        </div>
-
-        <div class="col-md-6 family-img">
-            <!-- Family Photo Column -->
-            <figure class="textover">
+            
+            <div id="FamilyBlock">
                 <img src="images/Family.jpg" alt="Family Photo">
                 <figcaption>On the way to the airport - Last Photo in Hawaii</figcaption>
-            </figure>
+            </div>
+        </div>
+        
+        
+        <!-- Make div set width of photo -->
+        <div id="PetBlock">
+            <div style="width: 10vw;">
+                <figure class="textover">
+                    <a href="maui/maui.html">
+                        <img src="images/Maui.jpg" style="width: 15vw;">
+                        <figcaption>Maui</figcaption>
+                    </a>
+                </figure>
+            </div>
         </div>
     </div>
-
-
-    <!-- Make div set width of photo -->
-    <div style="width: 20vw;">
-        <figure class="textover">
-            <a href="maui/maui.html">
-                <img src="images/Maui.jpg" style="width: 15vw;">
-                <figcaption>Maui</figcaption>
-            </a>
-        </figure>
-    </div>
-
-
+    
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-bottom">
         <button class="toggle-btn" onclick="toggleDarkmode()">Dark Mode</button>
         <a class="navbar-brand" style="font-weight:lighter; padding-left: 2rem;">Hansel Family Website by the Hansel
             Family</a>
-
-
-        <div id="my-nav" class="collapse navbar-collapse">
-            <ul class="navbar-nav ms-auto">
+            
+            
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="http://salt.is-slick.com">Salt Monitor <span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
-                </li>
-                <li>
+                        class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-                </li>
-            </ul>
-        </div>
-    </nav>
-</body>
-
-</html>
-
-
-<!-- <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false"
-    aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+        
+    </body>
+    
+    </html>
+    
+    
+    <!-- <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false"
+aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
 </button> -->

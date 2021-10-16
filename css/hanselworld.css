@@ -45,7 +45,8 @@ img {
 
 .kids {
      display: inline;
-     width: 32%;
+     width: 15vw;
+     height: auto;
 }
 
 .family-img {
@@ -83,6 +84,7 @@ img {
 }
 
 #parent {
+     width: 20vw;
      margin: 0;
      padding: 0;
 }
@@ -92,35 +94,51 @@ img {
      margin-left: 2rem;
 }
 
-/* (B) RESPONSIVE IMAGE */
-.textover img {
-     width: 100%;
+#PhotoBlock {
+     display: flex;
+     flex-flow: row;
+     max-height: 20vh;
+     justify-content: space-around;
+     align-items: center;
 }
 
-.textover {
-     max-width: 600px;
-} /* OPTIONAL */
-
-/* (C) POSITION CAPTION */
-.textover {
-     position: relative;
-} /* REQUIRED */
-.textover figcaption {
-     position: absolute;
-     bottom: 0;
-     left: 10;
+#ParentBlock {
+     display: flex;
+     flex-grow: 2;
+     flex-flow: column;
+     justify-content: space-around;
 }
 
-/* (D) CAPTION COSMETICS */
-.textover figcaption {
-     box-sizing: border-box;
-<<<<<<< HEAD
-     width: 100%;
-=======
-     width: 15vw;
->>>>>>> origin/crh/Add-Maui-Page
-     /* padding: 10px; */
-     color: white;
-     text-align: center;
-     background: rgba(0, 0, 0, 0.6);
+#KidsBlock {
+     display: flex;
+     flex-grow: ;
+     flex-flow: column;
+     
+}
+#GirlsBlock {
+     flex-grow: 3;
+     display: flex;
+     flex-flow: row;
+}
+
+#GuysBlock {
+     flex-grow: 3;
+     display: flex;
+     flex-flow: row;
+}
+
+#FamilyBlock {
+     width: 30vw;
+     flex-grow: 3;
+     display: flex;
+     flex-flow: column;
+}
+
+#PetBlock {
+     display: flex;
+     flex-flow: row;
+     max-height: 20vh;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 15vw;
 }
